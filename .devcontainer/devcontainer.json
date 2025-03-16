@@ -1,0 +1,13 @@
+{
+	"name": "cline-newbie",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"saoudrizwan.claude-dev"
+			]
+		}
+	}
+}
