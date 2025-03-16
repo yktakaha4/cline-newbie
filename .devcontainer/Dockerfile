@@ -6,4 +6,6 @@ RUN curl -fsSL https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --de
 RUN apt update
 RUN apt install -y \
     google-chrome-stable \
-    direnv
+    direnv \
+    git \
+    vim

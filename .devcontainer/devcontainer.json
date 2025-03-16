@@ -16,5 +16,6 @@
 				"saoudrizwan.claude-dev"
 			]
 		}
-	}
+	},
+    "postCreateCommand": ".devcontainer/post_create.sh"
 }
