@@ -4,4 +4,6 @@ RUN echo "deb [arch=amd64 signed-by=/usr/share/keyrings/googlechrom-keyring.gpg]
 RUN curl -fsSL https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/googlechrom-keyring.gpg
 
 RUN apt update
-RUN apt install -y google-chrome-stable
+RUN apt install -y \
+    google-chrome-stable \
+    direnv
