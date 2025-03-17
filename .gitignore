@@ -1,2 +1,8 @@
 .envrc
-*.swp
+*
+
+!/.devcontainer/
+!/.clinerules
+!/.envrc.sample
+!/.gitignore
+!/README.md
